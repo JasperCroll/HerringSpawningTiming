@@ -1,0 +1,125 @@
+"Fixed step size or integration accuracy when adaptive"		1.0E-12
+"Cohort/Integration cycle time interval"					1
+"Tolerance value, determining identity with zero"			1.0E-12
+
+"Maximum integration time"									54750
+"Output time interval"										365
+"Complete state output interval, 0 for none"		        0
+
+"Minimum allowable number of individuals in cohort"			1E-12 1E-12 1E-12 1E-12
+
+"Relative tolerances for i-state variable #0"				0 0 0 0
+"                        i-state variable #1"				0 0 0 0
+"Absolute tolerances for i-state variable #0"				0 0 0 0
+"                        i-state variable #1"				0 0 0 0
+
+"PZ		Productivity zooplankton (min 1.3495E-4 - 0.0675)"	0.5
+"RZ		Turnover zooplankton"								0.1
+"PB		Productivity Benthos (0.0097 - 9.7)"				1
+"RB		Turnover benthos"									0.1
+
+"LAMBDA1 allometrix size scaling"							5.65
+"LAMBDA2 alometric size scaling"							0.32
+
+"EPSMIN	Minimum egg development time"						4.2
+"EPSP	Temperature dependent development time scalar"		9.08
+"WB		Weight at hatching"									0.0007
+"AF		Age first feeding"									25
+"LM		Length at maturation"								14
+
+"QJ		Maximum juvenile condition"							3.09
+"QA		Maximum adult condition 1.13"						5
+"QR		Minimum conditon for reproduction"					0.7
+"QS		Minimum condition before starvation"				0.2
+
+"D1		Allometric scalar digestion"						4.8
+"D2		Allometric scalar digestion"						-0.74
+"AMAX	Maximum attack rate"								150
+"ALPHA	Allometric scalar zooplankton attack rate"			0.5
+"B1		Allometric scalar benthic attack rate"				0.2
+"B2		Allometric scalar benthic attack rate"				0.4
+
+"BMAX	Maximum benthic consumption"						0.4
+
+"WOPT	Optimum zooplankton consumption mass"				50
+"LH		Size at half the maximum benthic consumption (20)"		20
+
+"SB		feeding switch slope scalar"						1.5
+
+"KE		Food energy conversion"								0.5
+"RHO1	Allometric scalar metabolism"						0.03
+"RHO2	Allometric scalar metabolism"						0.8
+
+"KR		Gonal conversion efficiency"						0.5
+"SM		Time with maximum spawning after start"				38
+"SD		Duration of spawning period"						76
+"SSTART	Start of spawning period (60)"						490
+
+"MUL		egg and larval mortality (0.055)"						0.03
+"MUS	Size dpeendent mortality constant (0.08)"	    0.03
+"SC		Starvation rate scalar"								0.2
+"MUC	Size dependent mortality scalar"					0.5
+"MU0	Background mortality"								0.005
+
+"MUF		fisheries"										0.001
+"LHF		fisheries half"									8
+"AF		fisheries slope"									0.96
+"LFMIN		minimum fishing size"								5.6
+
+"GMZ1	Light dependence zooplankton"						1		
+"GMZ2	Light dependence slope zooplankton"					50
+"LHZ	Light intensity with half maximum productivity 0.403"		0.403
+
+"TR		Reference temperature"								8.588
+
+"EAR	Activation energy resource turnover rate"			0.8178
+
+"EAP	Activation energy resource production"				1.504
+"EDP	Deactivation energy resource production"			3.861
+"THP	Temperature half deactivation resource production"	25.01
+
+"EAD	Activation energy digestion"						0.5446
+"EDD	Deactivation energy digestion"						5.142
+"THD	Temperature half deactivation digestion"			24.09
+
+"EAM	Activation energy metabolic rate"					0.62
+"EI		Size temperature interaction metabolic rate"		0.018
+
+"EAS	Activation energy egg survival"						-0.5029
+"EDS	Deactivation energy egg survival"					-8.8534
+"THS	Temperature half deactivation egg survival"			4.5019
+
+"EAE	Activatio nenergy egg duration"						-1.531
+
+"AC		Temperature amplitude center"						7.690
+"AA		Temperature amplitude amplitude"					5.914
+"AS		Temperature amplitude shift"						273.1
+"SC		Temperature shift center"							172.1
+"SA		Temperature shift amplitude"						47.06
+"SS		Temperature shift shift"							4.6
+"TC		Temperature center"									8.588
+
+"LC		Light center"										0.5
+"LA		Light amplitude"									0.5
+"LS		Light shift"										172
+
+"WPROD	Fraction of productivity in winter"					0.1
+
+"VB		Water surface volume scalar"						50
+
+"HWSTART		Start time of heatwave"						0
+"HWDUR		duration of heatwave"							0
+"HWINC		temperature increase due to heatwave"			0
+"HWSLOPE		heatwave slope before heatwave start"		0
+
+"LHY		yield half"									13.7
+"AY		yield slope"									0.54
+"LYMIN		yield fishing size"								9
+
+
+"Index of the bifurcation parameter"	       				31
+"Step size in the bifurcation parameter"					1
+"Final value of the bifurcation parameter"					125
+"Linear (0) or logarithmic (1) parameter change"        	0
+"Period of output generation in bifurcation"				0
+"Period of state output in bifurcation"						0
